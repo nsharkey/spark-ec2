@@ -412,7 +412,7 @@ def get_validate_spark_version(version, repo):
 
 
 # Source: http://aws.amazon.com/amazon-linux-ami/instance-type-matrix/
-# Last Updated: 2015-06-19
+# Last Updated: 2017-06-29
 # For easy maintainability, please keep this manually-inputted dictionary sorted by key.
 EC2_INSTANCE_TYPES = {
     "c1.medium":   "pvm",
@@ -464,6 +464,14 @@ EC2_INSTANCE_TYPES = {
     "r3.2xlarge":  "hvm",
     "r3.4xlarge":  "hvm",
     "r3.8xlarge":  "hvm",
+    "r4.large":  "hvm",
+    "r4.xlarge":  "hvm",
+    "r4.2xlarge":  "hvm",
+    "r4.4xlarge":  "hvm",
+    "r4.8xlarge":  "hvm",
+    "r4.16xlarge":  "hvm",
+    "x1.16xlarge":  "hvm",
+    "x1.32xlarge":  "hvm",
     "t1.micro":    "pvm",
     "t2.micro":    "hvm",
     "t2.small":    "hvm",
